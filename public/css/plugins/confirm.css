@@ -1,0 +1,379 @@
+.bg-animate{
+    background-position:0 0;
+    background-repeat:repeat-x;
+    animation:animatedBackground 70s linear infinite 
+}
+#confirm, 
+#logs-invoice {
+    padding: 0 10px;
+    height: 100vh !important;
+}
+#confirm div, 
+#logs-invoice div {
+    overflow: hidden !important;
+}
+#confirm .section-heading h4, 
+#logs-invoice .section-heading h4 {
+    color: #121d33;
+}
+.butn.ver-btn,
+.butn.home-btn, 
+.butn.phone-btn {
+    margin: 3vh 0 1vh;
+    color: #121d33 !important;
+    font-size: 22px;
+    cursor: pointer !important;
+    line-height: 35px;
+    white-space: nowrap !important;
+    padding: 7.5px 14px;
+    box-shadow: 1px 1px 3px 1px rgba(18, 29, 51, 0.5) !important;
+}
+.butn.home-btn {
+    padding: 7.5px 16px;
+}
+
+.butn.home-btn.emp-btn{
+    margin-top: 7vh;
+    color: #121d33 !important;
+    font-size: 24px;
+    line-height: 35px;
+    padding: 10px;
+}
+
+.butn.modal-btn {
+    margin: 3vh 0 2vh;
+    font-size: 22px;
+    cursor: pointer !important;
+    line-height: 35px;
+    white-space: nowrap !important;
+    padding: 7.5px 12px;
+}
+.invoice img {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 21px 14px 0 !important;
+}
+@media screen and (max-width: 470px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 22px;
+        padding: 8px 12px;
+   }
+   .butn.home-btn {
+        padding: 8px 14px;
+    }
+   .invoice img {
+        width: 52px !important;
+        height: 52px !important;
+        margin: 29px 14px 0 !important;
+    }
+}
+@media screen and (max-width: 420px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 22px;
+        padding: 8px 12px;
+   }
+   .butn.home-btn {
+        padding: 8px 14px;
+    }
+   .invoice img {
+        width: 51px !important;
+        height: 51px !important;
+        margin: 28px 14px 0 !important;
+    }
+}
+@media screen and (max-width: 397px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 21px;
+        padding: 8px 13px;
+   }
+   .butn.home-btn {
+        padding: 8px 15px;
+    }
+   .invoice img {
+        width: 50px !important;
+        height: 50px !important;
+        margin: 27px 14px 0 !important;
+    }
+}
+@media screen and (max-width: 384px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 20.5px;
+        padding: 7.5px 12px;
+   }
+   .butn.home-btn {
+        padding: 7.5px 14px;
+    }
+   .invoice img {
+        width: 49px !important;
+        height: 49px !important;
+        margin: 27px 14px 0 !important;
+    }
+}
+@media screen and (max-width: 374px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 20px;
+        padding: 7px 11px;
+   }
+   .butn.home-btn {
+        padding: 7.5px 13px;
+    }
+   .invoice img {
+        width: 48px !important;
+        height: 48px !important;
+        margin: 25px 14px 0 !important;
+    }
+}
+.butn.modal-btn img,
+.butn.ver-btn img,
+.butn.home-btn img, 
+.butn.phone-btn img {
+    width: 27px;
+    border-radius: 4px;
+}
+#than-invoice,
+#email-invoice, 
+#phone-invoice, 
+#anon-invoice {
+    margin: 0.7px !important;
+    padding: 0px !important;
+    width: 100% !important;
+}
+#than-div,
+#anon-div, 
+#phone-div, 
+#email-div {
+    display: none;
+}
+#than-div,
+#anon-div,
+#phone-div,
+#email-div {
+    margin-top: 16vh;
+}
+@media screen and (max-width: 821px) {
+    #than-div
+    #anon-div,
+    #phone-div,
+    #email-div {
+        margin-top: 22vh;
+    }
+}
+@media screen and (max-width: 500px) {
+    #than-div,
+    #anon-div,
+    #phone-div,
+    #email-div {
+        margin-top: 19vh;
+    }
+}
+@media screen and (max-width: 400px) {
+    #than-div,
+    #anon-div,
+    #phone-div,
+    #email-div {
+        margin-top: 18vh;
+    }
+}
+@media screen and (max-width: 381px) {
+    #than-div,
+    #anon-div,
+    #phone-div,
+    #email-div {
+        margin-top: 17vh;
+    }
+}
+@media screen and (max-width: 374px) {
+    #than-div
+    #anon-div,
+    #phone-div,
+    #email-div {
+        margin-top: 13vh;
+    }
+}
+#than-invoice p,
+#email-invoice p, 
+#phone-invoice p, 
+#anon-invoice p {
+    margin: 3px auto 7px !important;
+    font-size: 20.5px !important;
+    line-height: 41px !important;
+}
+#than-invoice p span,
+#email-invoice p span, 
+#phone-invoice p span, 
+#anon-invoice p span { 
+    font-weight: 600;
+}
+@media screen and (max-width: 574px) {
+    #than-invoice p,
+    #email-invoice p, 
+    #phone-invoice p, 
+    #anon-invoice p {
+        margin: 7px auto 7px !important;
+        font-size: 19.7px !important;
+    }
+}
+@media screen and (max-width: 404px) {
+    #than-invoice p,
+    #email-invoice p, 
+    #phone-invoice p, 
+    #anon-invoice p {
+        font-size: 19.3px !important;
+    }
+}
+@media screen and (max-width: 380px) {
+    #than-invoice p,
+    #email-invoice p, 
+    #phone-invoice p, 
+    #anon-invoice p {
+        font-size: 19px !important;
+    }
+}
+#thanEmail,
+#thanPhone,
+#yourEmail, 
+#yourPhone, 
+#anon-invoice span {
+    font-weight: 600;
+    color: #121d33 !important;
+}
+.invoice {
+    display: flex;
+    margin-left: -14px !important;
+}
+
+blink {
+    position: relative !important;
+    top: -75px !important;
+    left: 100px !important;
+    z-index: 999 !important;
+}
+@media screen and (max-width: 500px) {
+    blink {
+        left: 95px !important;
+    }
+}
+@media screen and (max-width: 380px) {
+    blink {
+        left: 90px !important;
+    }
+}
+
+#invoice-body-div {
+    margin: 0 !important;
+    background: #fff !important;
+}
+#invoice-body-div p {
+    font-weight: 500 !important;
+}
+@media (min-width: 1092px) {
+	.col-lg-5 {
+		-ms-flex: 0 0 39%;
+		flex: 0 0 39%;
+		max-width: 39%;
+   }
+}
+.link-email-div {
+    margin-top: 0px !important;
+    margin-bottom: -20px !important;
+}
+.link-phone-div {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+blink {
+    animation: blinkez 4.9s linear infinite;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px;
+    margin: 3px;
+    font-size: 16px;
+    position: absolute;
+    right: 3px;
+    top: 30px;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: 1.4px solid #fff;
+}
+@keyframes blinkez {
+  0% {
+    color: rgba(18, 29, 51, 0.5);
+    border: 1.4px solid rgba(18, 29, 51, 0.5);
+  }
+  10% {
+    color: rgba(18, 29, 51, 0.75);
+    border: 1.4px solid rgba(18, 29, 51, 0.75);
+  }
+  20% {
+    color: rgba(18, 29, 51, 1);
+    border: 1.4px solid rgba(18, 29, 51, 1);
+  }
+  30% {
+    color: rgba(18, 29, 51, 0.75);
+    border: 1.4px solid rgba(18, 29, 51, 0.75);
+  }
+  40% {
+    color: rgba(18, 29, 51, 0.5);
+    border: 1.4px solid rgba(18, 29, 51, 0.5);
+  }
+  50% {
+    color: rgba(18, 29, 51, 0.25);
+    border: 1.4px solid rgba(18, 29, 51, 0.25);
+  }
+  60% {
+    color: rgba(255, 255, 255, 0.5);
+    border: 1.4px solid rgba(255, 255, 255, 0.5);
+  }
+  70% {
+    color: rgba(255, 255, 255, 0.75);
+    border: 1.4px solid rgba(255, 255, 255, 0.75);
+  }
+  80% {
+    color: rgba(255, 255, 255, 1);
+    border: 1.4px solid rgba(255, 255, 255, 1);
+  }
+    90% {
+      color: rgba(255, 255, 255, 0.75);
+      border: 1.4px solid rgba(255, 255, 255, 0.75);
+   }
+   100% {
+    color: rgba(255, 255, 255, 0.5);
+    border: 1.4px solid rgba(255, 255, 255, 0.5);
+  }
+}
+#exampleModal .modal-dialog {
+    top: 15vh !important;
+}
+@media screen and (max-width: 500px) {
+    #exampleModal .modal-dialog {
+        top: 25vh !important;
+    }
+}
+.nohr {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.empty-cart {
+    padding: 49px 14px;
+    margin-top: 23vh !important;
+}
+.clint {
+    margin: -7px 0 0 0 !important; 
+    position: fixed !important;
+    bottom: 0 !important;
+}

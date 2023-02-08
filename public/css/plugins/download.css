@@ -1,0 +1,230 @@
+.bg-animate{
+    background-position:0 0;
+    background-repeat:repeat-x;
+    animation:animatedBackground 70s linear infinite
+}
+
+@keyframes animatedBackground{
+    from{
+        background-position:0 0
+    }
+    to{
+        background-position:100% 0
+    }
+}
+#style-switcher{
+    top: 24%;
+}
+@media (max-width:592px){
+    #style-switcher{
+        top: 19%;
+    }
+}
+.therow{
+    margin-top: 55px;
+}
+@media screen and (max-width: 906px) {
+    .therow{
+        margin-top: 78px;
+    }
+}
+
+#paid{
+    padding: 10px;
+}
+
+#paid div{
+    overflow-y: hidden !important;
+}
+#paid .section-heading h4 {
+    color: #121d33;
+    font-size: 32px !important;
+}
+.butn.home-btn{
+    margin-top: 7vh;
+    color: #121d33 !important;
+    font-size: 24px;
+}
+
+#paid-text {
+    color: rgba(18, 29, 51, 0.92) !important;
+    font-size: 17.5px !important;
+    line-height: 30px !important;
+}
+#paid-text  span {
+    font-weight: 700 !important;
+    color: #121d33 !important;
+}
+.butn.home-btn img {
+    width: 27px;
+    border-radius: 0;
+}
+
+.paid-cart{
+    background: rgba(255, 255, 255, 0.92) !important;
+    padding: 23px 10px;
+    width: 100% !important;
+}
+#you-sent {
+    font-weight: 700;
+}
+#predat {
+    display: none;
+    padding: 3px;
+    height: 100vh;
+}
+#predat div {
+    overflow-y: hidden !important;
+}
+#predat .section-heading h4 {
+    color: #121d33 !important;
+}
+#exampleModal .modal-dialog {
+    top: 7vh !important;
+}
+#anon-check {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    cursor: pointer !important;
+}
+@media screen and (max-width: 500px) {
+    #exampleModal .modal-dialog {
+        top: 17vh !important;
+    }
+}
+
+#down-file {
+    text-transform: uppercase !important;
+}
+
+.empty-cart {
+    padding: 49px 14px;
+    margin-top: 23vh !important;
+}
+#settings img {
+    width: 25px !important;
+	height: 25px !important;
+	margin: -3px auto -1px 5px !important;
+}
+#settings {
+	left: 26%;
+	right: 26%;
+}
+#vpn {
+    margin: 37px auto;
+    cursor: pointer;
+    font-size: 23.5px !important;
+    padding: 7.5px 10.3px !important;
+}
+
+/* Compatibility styles for frameworks like bootstrap, foundation e.t.c */
+.xzoom-source img, .xzoom-preview img, .xzoom-lens img {
+    display: block;
+    max-width: none;
+    max-height: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+  /* --------------- */
+  
+  /* xZoom Styles below */
+  .xzoom-container { 
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .xzoom-container img{
+    margin: 0;
+    padding: 0;
+  }
+  .xzoom-thumbs {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .xzoom { 
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);  
+    margin-bottom: 15px;
+  }
+  .xzoom2, .xzoom3, .xzoom4, .xzoom5 {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  }
+  
+  /* Thumbs */
+  .xzoom-gallery, .xzoom-gallery2, .xzoom-gallery3, .xzoom-gallery4, .xzoom-gallery5 {
+    border: 1.4px solid #cecece;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .xzoom-source, .xzoom-hidden {
+    display: block;
+    position: static;
+    float: none;
+    clear: both;
+    z-index: 1;
+  }
+  
+  /* Everything out of border is hidden */
+  .xzoom-hidden {
+    overflow: hidden;
+  }
+  
+  /* Preview */
+  .xzoom-preview {
+    border: 1.4px solid #888;
+    background: #2f4f4f;
+    box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
+    z-index: 1;
+  }
+  
+  /* Lens */
+  .xzoom-lens {
+    border: 1.4px solid #555;
+    box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
+    cursor: crosshair;
+  }
+  
+  /* Loading */
+  .xzoom-loading {
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    opacity: .7;
+    background: transparent;
+    width: 48px;
+    height: 48px;
+  }
+  
+  /* Additional class that applied to thumb when it is active */
+  .xactive {
+    box-shadow: 0px 0px 3px 0px rgba(74,169,210,1); 
+    border: 1.4px solid #4aaad2;
+  }
+  
+  /* Caption */
+  .xzoom-caption {
+    position: absolute;
+    bottom: -43px;
+    left: 0;
+    background: #000;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .xzoom-caption span {
+    color: #fff;
+    display: block;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 10px;
+  }
+  @media (max-width: 1091px) { 
+    .xzoom-thumbs img {
+      width: 60px;
+    }
+  }
+  
